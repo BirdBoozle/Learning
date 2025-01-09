@@ -1,0 +1,15 @@
+h1 {
+    color: #000000;
+}
+h2 
+p {
+    color: #000000;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+}
+div.about p {
+    color: #000000;
+}
+body {
+    background-color: rgb(169, 211, 255);
+}

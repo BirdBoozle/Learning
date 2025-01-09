@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birbs and Eva - Christmas Card</title>
+    <style>
+        /* General Reset */
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Georgia', serif;
+            background-color: #f3f4f6;
+            color: #333;
+        }
+
+        /* Card Container */
+        .card {
+            width: 90%;
+            max-width: 600px;
+            background: #fff;
+            margin: 50px auto;
+            border: 2px solid #dcdcdc;
+            border-radius: 12px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        /* Header Section */
+        .card-header {
+            background: linear-gradient(135deg, #ff7043, #bf360c); /* Warm orange gradient */
+            color: #fff;
+            padding: 30px 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        /* Content Section */
+        .card-content {
+            padding: 30px 20px;
+            background: #fafafa;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* Greeting Message */
+        .greeting {
+            color: #ff7043;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        /* Snowflake Animation */
+        .snowflake {
+            display: inline-block;
+            font-size: 2em;
+            color: #ff7043;
+            margin: 0 10px;
+            animation: spin 4s infinite linear;
+        }
+
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            font-size: 1.1em;
+            color: #fff;
+            background: #ff7043;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .btn:hover {
+            background: #bf360c;
+            transform: scale(1.05);
+        }
+
+        /* Footer Section */
+        .card-footer {
+            background-color: #ffe0b2;
+            padding: 20px;
+            color: #333;
+            font-size: 1em;
+        }
+
+        .footer-text {
+            margin: 0;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Christmas Card -->
+    <div class="card">
+        <!-- Header -->
+        <div class="card-header">
+            <h1>🎄 Birbs and Eva 🎄</h1>
+        </div>
+
+        <!-- Content -->
+        <div class="card-content">
+            <p class="greeting">Wishing you a joyful Christmas full of chirps and cheer!</p>
+            <p>
+                Here's to cozy nests, warm moments, and endless flights of happiness. 
+                May this festive season bring you and the birbs lots of love, laughter, and good times.
+            </p>
+            <!-- Animated Snowflakes -->
+            <p>
+                <span class="snowflake">❄</span>
+                <span class="snowflake">❄</span>
+                <span class="snowflake">❄</span>
+            </p>
+            <!-- Button -->
+            <a href="#" class="btn">Fly High This Christmas!</a>
+        </div>
+
+        <!-- Footer -->
+        <div class="card-footer">
+            <p class="footer-text">With all the love and chirps, <br> Eva & The Birbs ❤️</p>
+        </div>
+    </div>
+</body>
+</html>

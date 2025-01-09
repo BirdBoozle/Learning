@@ -1,0 +1,10 @@
+div.table table, div.table th, div.table td {
+    border: 1px solid black;
+}
+div.table table {
+    border-collapse: collapse;
+}
+div.table th, div.table td {
+    text-align: center;
+    padding: 15px;
+}
