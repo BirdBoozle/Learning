@@ -1,10 +1,13 @@
 div.table table, div.table th, div.table td {
     border: 1px solid black;
 }
-div.table table {
-    border-collapse: collapse;
-}
 div.table th, div.table td {
     text-align: center;
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+div.table tr:nth-child(even) {
+    background-color: lightskyblue;
 }
